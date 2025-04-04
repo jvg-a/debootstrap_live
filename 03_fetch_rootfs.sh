@@ -5,7 +5,7 @@
 
 BASE_DIR=work/rootfs
 
-debootstrap stable $BASE_DIR http://deb.debian.org/debian/
+debootstrap bookworm $BASE_DIR http://deb.debian.org/debian/
 
 cd $BASE_DIR
 touch chroot.sh
